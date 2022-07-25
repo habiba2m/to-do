@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icons8-schedule-48.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Todo</title>
+</head>
+
+<body>
+    <h1 class="title">To-do List</h1>
+
+    <div class="all_tasks">
+        <h2 class="task_list_title">My list</h2>
+
+        <ul class="task_list">
+            <li class="active_list list name"> School</li>
+            <li class=" list name"> Work</li>
+            <li class="list name">Grocery</li>
+            <li class="list name">Home</li>
+        </ul>
+
+        <form action="">
+            <input type="text" class="new" placeholder="new list name" aria-label="new list name" />
+            <button class="btn list" aria-label="create new list">+</button>
+
+    </div>
+
+    <div class="todo">
+        <div class="todo_header">
+            <h2 class="list_title">School</h2>
+            <p class="tasks_count">3 tasks remaining</p>
+        </div>
+
+        <div class="todo_body">
+            <div class="tasks">
+                <div class="task">
+                    <input type="checkbox" id="task1">
+                    <label for="task1"><span class="decor"></span>Science homework</label>
+                </div>
+
+                <div class="task">
+                    <input type="checkbox" id="task2">
+                    <label for="task2"><span class="decor"></span>Math homework</label>
+                </div>
+
+                <div class="task">
+                    <input type="checkbox" id="task3">
+                    <label for="task3"><span class="decor"></span>English homework</label>
+                </div>
+
+            </div>
+
+
+            <div class="task_creator">
+                <form action="">
+                    <input type="text" class="new" placeholder="new task name" aria-label="new task name" />
+                    <button class="btn task" aria-label="create new task">+</button>
+                </form>
+            </div>
+
+
+            <div class="delete_task">
+                <button class="btn delete">Clear completed tasks</button>
+
+                <button class="btn delete">Delete list</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
