@@ -197,3 +197,24 @@ form,
 .btn.delete:hover {
     background-color: #f57d7988;
 }
+
+@media screen and (max-width: 1023px) {
+    body {
+        background-position: top center;
+    }
+
+    .todo {
+        transform: scale(0.5);
+        position: absolute;
+        left: 330px;
+        top: 150px;
+    }
+
+    .all_tasks {
+        transform: scale(0.7);
+        transform: scale(0.5);
+        position: absolute;
+        left: 250px;
+        top: 170px;
+    }
+}
