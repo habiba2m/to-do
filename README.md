@@ -1,4 +1,4 @@
-# to-do
+# to-do list
 
 A frontend design for a to-do list
 
